@@ -1,0 +1,12 @@
+@import '../../../config-scss/rem-calc.scss';
+
+:host{
+  header{
+    display: flex;
+    flex-direction: row;
+    padding: rem-calc(40) 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+}
